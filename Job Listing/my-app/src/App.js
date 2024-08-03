@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import SearchBarHeader from './Components/Search-Bar/Search';
 
 function App() {
-  return (
-    <div className='listing'>
-      <h1>Hello</h1>
+  return ( 
+    <div className='search-bar'>
+      <SearchBarHeader />
     </div>
   );
 }
