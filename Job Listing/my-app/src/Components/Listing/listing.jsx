@@ -51,6 +51,7 @@ const JobList = () => {
             <h2>{job.title}</h2>
             <p><strong>Company:</strong> {job.company}</p>
             <p><strong>Location:</strong> {job.location}</p>
+            <p><strong>Apply Now:</strong> {job.apply_link}</p>
           </li>
         ))}
       </ul>
